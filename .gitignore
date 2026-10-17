@@ -1,0 +1,22 @@
+# Секреты и личные данные — НИКОГДА не коммитить
+*.p12
+*.pfx
+*.jks
+*.pem
+*.key
+*.der
+*.csr
+*.crl
+*.cer
+*.p7b
+local_keys.py
+kalkan_keys_local.py
+.env
+
+# Артефакты прогонов
+__pycache__/
+*.pyc
+*.log
+*.tmp
+_build/
+_sdk_artifacts/
